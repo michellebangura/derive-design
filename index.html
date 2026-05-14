@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Derive — Design Intelligence</title>
+  <meta name="description" content="Every design decision has a right answer. Derive converts questions into research-backed specifications across digital, print, and physical space." />
+  <meta property="og:title" content="Derive — Design Intelligence" />
+  <meta property="og:description" content="Every design decision has a right answer. Derive it." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,700&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a href="/" class="nav-wordmark">derive<span>.</span></a>
+    <div class="nav-links">
+      <a href="#how" class="nav-link">How it works</a>
+      <a href="#research" class="nav-link">The research</a>
+      <a href="#products" class="nav-link">Products</a>
+      <button class="nav-cta" onclick="document.getElementById('waitlist').scrollIntoView({behavior:'smooth'})">
+        Join waitlist
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-kicker">Design intelligence</div>
+    <h1 class="hero-headline">
+      Every design decision<br>
+      has a <em>right answer.</em><br>
+      Derive it.
+    </h1>
+    <p class="hero-body">
+      Derive converts questions into research-backed specifications. 
+      Not mood boards. Not opinions. The specific values — 
+      hex codes, CSS, dimensions, materials — derived from 1,900+ 
+      indexed research findings.
+    </p>
+    <div class="hero-actions">
+      <button class="btn-primary" onclick="document.getElementById('waitlist').scrollIntoView({behavior:'smooth'})">
+        Get early access →
+      </button>
+      <button class="btn-secondary" onclick="document.getElementById('how').scrollIntoView({behavior:'smooth'})">
+        See how it works
+      </button>
+    </div>
+    <div class="hero-scroll">Scroll</div>
+  </section>
+
+  <!-- PROOF STRIP -->
+  <div class="proof-strip" aria-label="Research database statistics">
+    <div class="proof-item">
+      <span class="proof-num">1,991</span>
+      <span class="proof-label">Indexed findings</span>
+    </div>
+    <div class="proof-item">
+      <span class="proof-num">15</span>
+      <span class="proof-label">Research tables</span>
+    </div>
+    <div class="proof-item">
+      <span class="proof-num">180+</span>
+      <span class="proof-label">Emotional states mapped</span>
+    </div>
+    <div class="proof-item">
+      <span class="proof-num">6</span>
+      <span class="proof-label">Design media</span>
+    </div>
+    <div class="proof-item">
+      <span class="proof-num">0</span>
+      <span class="proof-label">Guesses. Ever.</span>
+    </div>
+  </div>
+
+  <!-- HOW IT WORKS -->
+  <section class="section" id="how">
+    <div class="container">
+      <div class="section-label">The process</div>
+      <h2 class="section-headline">Questions produce constraints.<br>Constraints produce values.</h2>
+      <p class="section-body">
+        Most design decisions are made by whoever has the strongest opinion that day. 
+        Derive replaces opinion with a systematic question set — every answer constrains 
+        the specification, every specification cites its research basis.
+      </p>
+
+      <div class="steps">
+        <div class="step">
+          <span class="step-num">01 — Ask</span>
+          <div class="step-title">The complete question set</div>
+          <p class="step-body">
+            Who is this for, right now, in their actual physiological state? 
+            What emotion do they arrive with? What do they need to leave with? 
+            What is the cognitive load budget? The time budget? The device reality?
+            Every answer constrains what comes next.
+          </p>
+          <div class="step-connector">→</div>
+        </div>
+        <div class="step">
+          <span class="step-num">02 — Research</span>
+          <div class="step-title">1,991 indexed findings</div>
+          <p class="step-body">
+            Each answer queries the research database. 
+            What does the evidence say about this emotional state and color? 
+            This cognitive load and typography? This space type and acoustic coefficient?
+            The database has the answer. With citations.
+          </p>
+          <div class="step-connector">→</div>
+        </div>
+        <div class="step">
+          <span class="step-num">03 — Specify</span>
+          <div class="step-title">No ambiguity. Ever.</div>
+          <p class="step-body">
+            The output is not "warm and approachable." 
+            The output is: background <code>#F7F4EF</code>, 
+            IBM Plex Sans 300 at 1.7 line-height, 
+            border-radius 2px, 
+            animation cubic-bezier(0.22, 1, 0.36, 1) 150ms.
+            A builder who was never in the room can implement it exactly.
+          </p>
+        </div>
+      </div>
+
+      <div class="philosophy-block">
+        <p class="philosophy-text">
+          "Design decisions without research are just <strong>opinions with authority.</strong> 
+          The authority doesn't make them right. 
+          The research does."
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section class="section section--alt" id="research">
+    <div class="container">
+      <div class="section-label">The knowledge base</div>
+      <h2 class="section-headline">Built from evidence, not intuition.</h2>
+      <p class="section-body">
+        The Derive research database covers every dimension of every design decision 
+        across every medium. Every finding is cited. Every value has a basis. 
+        Every conflict is documented.
+      </p>
+
+      <div class="research-grid">
+        <div class="research-card">
+          <span class="research-count">235</span>
+          <span class="research-name">emotion → color</span>
+          <p class="research-desc">180+ distinct emotional states mapped to specific hex values, CSS parameters, and anti-patterns. "Grief" produces different specifications than "grieving / processing loss."</p>
+        </div>
+        <div class="research-card">
+          <span class="research-count">152</span>
+          <span class="research-name">emotion → full spec</span>
+          <p class="research-desc">Complete design specifications per emotional state: background, typography, shadow, animation speed, content density, whitespace ratio, border radius — all at once.</p>
+        </div>
+        <div class="research-card">
+          <span class="research-count">208</span>
+          <span class="research-name">color research</span>
+          <p class="research-desc">Color psychology findings across culture, education, saturation, brightness, accessibility, conversion, and memory — with effect sizes, sample sizes, and replication status.</p>
+        </div>
+        <div class="research-card">
+          <span class="research-count">290</span>
+          <span class="research-name">typography</span>
+          <p class="research-desc">Font alternatives with emotional profiles, weight ranges, distinctiveness notes, best and worst contexts, and cross-font pairing compatibility — for 290 typefaces.</p>
+        </div>
+        <div class="research-card">
+          <span class="research-count">166</span>
+          <span class="research-name">texture + material</span>
+          <p class="research-desc">Material vocabulary and its psychological communication — from concrete to fabric to planting — with acoustic coefficients and emotional register for physical space design.</p>
+        </div>
+        <div class="research-card">
+          <span class="research-count">155</span>
+          <span class="research-name">anti-library</span>
+          <p class="research-desc">150+ competitor brand analyses: exact color values, typography choices, emotional targets, what works, and — critically — what to avoid and the specific reason why.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEDIA TABLE -->
+  <section class="section" id="media">
+    <div class="container">
+      <div class="section-label">Every medium</div>
+      <h2 class="section-headline">The same methodology.<br>Every surface.</h2>
+      <p class="section-body">
+        The question set works across media because the question is always the same: 
+        what does this person feel when they arrive, and what must they feel when they leave? 
+        The output vocabulary changes. The methodology is universal.
+      </p>
+
+      <div class="media-table">
+        <div class="media-row media-row--header">
+          <div class="media-cell media-cell--label media-cell--name">Medium</div>
+          <div class="media-cell media-cell--label">Output vocabulary</div>
+          <div class="media-cell media-cell--label">What changes</div>
+        </div>
+        <div class="media-row">
+          <div class="media-cell" style="font-weight:600">Digital interface</div>
+          <div class="media-cell">CSS values, component specs, animation parameters</div>
+          <div class="media-cell">px, ms, hex — every state specified</div>
+        </div>
+        <div class="media-row">
+          <div class="media-cell" style="font-weight:600">Book cover</div>
+          <div class="media-cell">CMYK, trim size, mark selection, typography hierarchy</div>
+          <div class="media-cell">Passes thumbnail test at 60×90px</div>
+        </div>
+        <div class="media-row">
+          <div class="media-cell" style="font-weight:600">Graphic design</div>
+          <div class="media-cell">Grid system, viewing distance, print production specs</div>
+          <div class="media-cell">mm, pt, Pantone, bleed, paper stock</div>
+        </div>
+        <div class="media-row">
+          <div class="media-cell" style="font-weight:600">Interior space</div>
+          <div class="media-cell">RT60, NC, lux, kelvin, m², material acoustic coefficients</div>
+          <div class="media-cell">The invisible decisions that dominate experience</div>
+        </div>
+        <div class="media-row">
+          <div class="media-cell" style="font-weight:600">Meeting room</div>
+          <div class="media-cell">Sightlines, power dynamics, technology integration</div>
+          <div class="media-cell">The room that either serves equity or undermines it</div>
+        </div>
+        <div class="media-row">
+          <div class="media-cell" style="font-weight:600">Working environment</div>
+          <div class="media-cell">Zone ratios, adjacency, CO₂ ppm, circadian lighting</div>
+          <div class="media-cell">8 hours × 250 days × every person in the space</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="section section--alt" id="products">
+    <div class="container">
+      <div class="section-label">What Derive produces</div>
+      <h2 class="section-headline">Six products.<br>One methodology.</h2>
+      <p class="section-body">
+        The research database enables a range of services — from single-engagement 
+        design briefs to licensed tools organizations use independently.
+      </p>
+
+      <div class="products">
+        <div class="product-card">
+          <div class="product-icon">⬡</div>
+          <div class="product-name">Design Specification Service</div>
+          <p class="product-desc">A facilitated engagement that runs the complete question set for a brand and produces a fully specified design system — every token documented with its research basis. For publishers, ed-tech, nonprofits, and organizations that design at scale.</p>
+          <div class="product-link">Learn more →</div>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">◉</div>
+          <div class="product-name">Book Cover System</div>
+          <p class="product-desc">Systematic cover production for publishers with 50+ titles. Input: content type, emotional register, series. Output: mark selection, color specification, typography hierarchy, and a QA score that determines whether it ships.</p>
+          <div class="product-link">Learn more →</div>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">▣</div>
+          <div class="product-name">Space Design Brief</div>
+          <p class="product-desc">A 2-4 hour facilitated brief that produces complete acoustic, lighting, material, ergonomic, and programmatic specifications for schools, offices, and community organizations. Not the design — the brief the design must serve.</p>
+          <div class="product-link">Learn more →</div>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">◈</div>
+          <div class="product-name">Marks Library</div>
+          <p class="product-desc">A licensed illustration vocabulary of 29+ marks, each catalogued for emotional register, content affinity, thumbnail legibility, and appropriate series use. For publishers and designers who need visual identity that doesn't look like clip art.</p>
+          <div class="product-link">Learn more →</div>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">◇</div>
+          <div class="product-name">Design Intelligence Training</div>
+          <p class="product-desc">The methodology as a teachable skill. Workshop, certification program, or self-directed workbook. For designers who want research backing, and non-designers who need to make design decisions that hold up.</p>
+          <div class="product-link">Learn more →</div>
+        </div>
+        <div class="product-card">
+          <div class="product-icon">⬘</div>
+          <div class="product-name">The Platform</div>
+          <p class="product-desc">Coming. An interactive interview that produces a complete design brief, citing every research row behind every decision. Upload a cover, receive a QA score. Query the emotion database. Get the answer, not a suggestion.</p>
+          <div class="product-link">Join waitlist →</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THIS PAGE -->
+  <section class="section">
+    <div class="container--narrow">
+      <div class="section-label">Proof of concept</div>
+      <h2 class="section-headline">This page is the first product.</h2>
+      <p class="section-body" style="margin-bottom:24px">
+        Every design decision on this page was produced by running Derive's own question 
+        set through its own research database. Nothing was chosen because it looked good.
+      </p>
+
+      <div style="background:var(--bg-up);padding:32px;border:1px solid var(--rule);border-left:3px solid var(--ac)">
+        <div style="font-family:var(--f-mono);font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--ac);margin-bottom:16px">Design decision log</div>
+
+        <div style="display:grid;gap:16px">
+          <div style="display:grid;grid-template-columns:180px 1fr;gap:16px;font-size:13px;padding-bottom:16px;border-bottom:1px solid var(--rule)">
+            <div style="font-weight:600;color:var(--tx)">Background #F7F4EF</div>
+            <div style="color:var(--tx-2)">dkb.color_research: warm backgrounds produce 67.6% reading comprehension vs 56.5% on cool/blue. Hue 38°, sat 22%, light 95%.</div>
+          </div>
+          <div style="display:grid;grid-template-columns:180px 1fr;gap:16px;font-size:13px;padding-bottom:16px;border-bottom:1px solid var(--rule)">
+            <div style="font-weight:600;color:var(--tx)">Accent #C4622D</div>
+            <div style="color:var(--tx-2)">dkb.emotion_to_color: authority + confidence states require warm, committed tones. Anti-pattern: blue accent (overused by Linear/Stripe/IBM — creates category confusion).</div>
+          </div>
+          <div style="display:grid;grid-template-columns:180px 1fr;gap:16px;font-size:13px;padding-bottom:16px;border-bottom:1px solid var(--rule)">
+            <div style="font-weight:600;color:var(--tx)">IBM Plex Sans body</div>
+            <div style="color:var(--tx-2)">dkb.font_alternatives: "Intelligent, human-centered, globally inclusive with enterprise authority." Carries institutional authority that Inter's neutrality lacks. Supports global translation.</div>
+          </div>
+          <div style="display:grid;grid-template-columns:180px 1fr;gap:16px;font-size:13px;padding-bottom:16px;border-bottom:1px solid var(--rule)">
+            <div style="font-weight:600;color:var(--tx)">0px container radius</div>
+            <div style="color:var(--tx-2)">dkb.emotion_design_matrix: authority states use 0px border radius. "Nothing here has been softened." 2px on interactive elements signals care without compromising authority.</div>
+          </div>
+          <div style="display:grid;grid-template-columns:180px 1fr;gap:16px;font-size:13px">
+            <div style="font-weight:600;color:var(--tx)">Libre Franklin display</div>
+            <div style="color:var(--tx-2)">dkb.font_alternatives: "Classic American editorial, professional and versatile. Provides editorial heritage where Inter is deliberately neutral." 800 weight for authority signal.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="waitlist">
+    <div class="container">
+      <h2 class="cta-headline">The right answer exists.<br>Find it.</h2>
+      <p class="cta-body">
+        Derive is in early access. Join the waitlist to be first to 
+        use the platform when it opens.
+      </p>
+      <form class="email-form" onsubmit="handleSubmit(event)">
+        <input type="email" class="email-input" placeholder="your@email.com" required id="email-field" />
+        <button type="submit" class="email-submit">Join waitlist</button>
+      </form>
+      <p style="font-size:12px;color:rgba(247,244,239,0.3);margin-top:14px;font-family:var(--f-mono);letter-spacing:.08em">
+        No noise. One email when access opens.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-wordmark">derive<span>.</span></div>
+    <div class="footer-note">Design intelligence from evidence — not opinion</div>
+    <div style="font-family:var(--f-mono);font-size:10px;color:var(--tx-3);letter-spacing:.08em">
+      A Kombra Group venture · 2026
+    </div>
+  </footer>
+
+  <script>
+    // Scroll-based nav
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    // Scroll reveal (uses CSS opacity/transform)
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.opacity = '1';
+          e.target.style.transform = 'translateY(0)';
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.step, .research-card, .product-card, .media-row:not(.media-row--header)').forEach((el, i) => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(24px)';
+      el.style.transition = `opacity 0.55s cubic-bezier(0.16,1,0.3,1) ${i * 0.06}s, transform 0.55s cubic-bezier(0.16,1,0.3,1) ${i * 0.06}s`;
+      observer.observe(el);
+    });
+
+    // Waitlist
+    function handleSubmit(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('.email-submit');
+      btn.textContent = 'You\'re on the list ✓';
+      btn.style.background = '#3D7A52';
+      e.target.querySelector('#email-field').value = '';
+    }
+  </script>
+
+</body>
+</html>
